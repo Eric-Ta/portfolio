@@ -9,7 +9,7 @@ const navItems = [
   { name: "Education", href: "#schooltimeline" },
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
-  //{ name: "Education Portfoio", href: "edu" },
+  { name: "Education Portfoio", href: "edu" },
 ];
 
 export const Navbar = () => {
