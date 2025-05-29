@@ -33,7 +33,7 @@ export const SchoolTimeline = () => {
     <h3 className="vertical-timeline-element-title">Bachelors of Education</h3>
     <h4 className="vertical-timeline-element-subtitle">University of Calgary</h4>
     <p>
-      Specializing in elementary math
+      Specializing in Elementary Math
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
