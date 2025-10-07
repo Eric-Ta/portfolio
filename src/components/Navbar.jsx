@@ -10,6 +10,7 @@ const navItems = [
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
   { name: "Education Portfoio", href: "edu" },
+  { name: "EDUC 440", href: "educ440" },
 ];
 
 export const Navbar = () => {

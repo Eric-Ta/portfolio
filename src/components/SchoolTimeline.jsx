@@ -20,7 +20,7 @@ export const SchoolTimeline = () => {
   
   <VerticalTimelineElement
   
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--education card-hover"
     //contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     //contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2025 - 2027"
@@ -37,7 +37,7 @@ export const SchoolTimeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--education card-hover"
     date="2019 - 2024"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     //icon={<WorkIcon />}
@@ -52,7 +52,7 @@ export const SchoolTimeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--education card-hover"
     date="2018 - 2019"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    // icon={<WorkIcon />}

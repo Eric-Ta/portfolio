@@ -39,7 +39,7 @@ export const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--work card-hover"
     date="June 2025 - August 2025"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     //icon={<WorkIcon />}
@@ -53,7 +53,7 @@ export const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--work card-hover"
     date="January 2023 - August 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    // icon={<WorkIcon />}
@@ -67,7 +67,7 @@ export const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--work card-hover"
     date="September 2022 - December 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     //icon={<WorkIcon />}
@@ -81,7 +81,7 @@ export const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className="vertical-timeline-element--work card-hover"
     date="July 2016 - March 2020"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
    // icon={<SchoolIcon />}

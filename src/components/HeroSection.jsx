@@ -25,6 +25,11 @@ export const HeroSection = () => {
             I have a previous degree in Computer science, where I have interned for companies including ENMAX and Alberta Health Services.
           </p>
 
+           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+            <a href="educ440" className="cosmic-button">
+              View My Education 440 Portfolio !!
+            </a>
+          </div>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="edu" className="cosmic-button">
               View My Education Portfolio

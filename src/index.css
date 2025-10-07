@@ -93,7 +93,7 @@
 
      --timeline-line-color: #222;
   --timeline-item-background: #333;
-  --timeline-item-color: #fff;
+  --timeline-item-color: #fff; /* last to properties for timeline cards*/
   }
 
   * {
