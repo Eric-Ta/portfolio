@@ -67,9 +67,12 @@ export const Education440Section = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Lifelong Learner</h4>
                   <p className="text-muted-foreground">
-                    We are always learning! Even though I have a computer science degree, I feel that I have bareley scratched the surface in 
-                    this massive domain. Becoming a teacher will put me on the other side of learning as I teach educational and life-long skills to the future 
-                    of the world! 
+                    We are always learning! 
+                    Becoming a teacher will put me on the other side of learning as I teach to the future! 
+                    I feel it is important to introduce to students the concept that learning never stops. 
+                    Learning doesn’t end when the bell rings at the end of the day and that anything in life can be a learning lesson. 
+                    This concept took longer than I wanted to grasp with me and I want to make sure all my students are aware of this at a young age!
+ 
                   </p>
                 </div>
               </div>
@@ -80,11 +83,13 @@ export const Education440Section = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Teamwork</h4>
+                  <h4 className="font-semibold text-lg">Teamwork and Collaboration</h4>
                   <p className="text-muted-foreground">
-                    Throughout school, work, sports, and life in general, I have learned that working in 
-                    a team setting is crucial for success. My communication, leadership, accountability, and respect skills
-                    have been developed throughout my life, to make working in a team as effective as possible.
+                    Throughout school, work, sports, and life in general, I have learned that working in a team setting is crucial for success. 
+                    Having strong communication, leadership, accountability, respect, and other collaboration and teamwork skills is crucial for success. 
+                    You can be a very knowledgable person, but without the proper teamwork skills, it can handicap your potential in the future. 
+                    I want to have as many collaboration activities as possible when I am a teacher, 
+                    so these teamwork skills can develop and hopefully lay a solid foundation for the future.
                   </p>
                 </div>
               </div>
@@ -96,11 +101,15 @@ export const Education440Section = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Computer Science Background</h4>
+                  <h4 className="font-semibold text-lg">Practicality and Application</h4>
                   <p className="text-muted-foreground">
-                    Technical knowledge and experience throughout my life and university including software development and data analytics. Working on 
-                    large projects individualy and in a team setting, learning from and teaching more experienced members across the company, developing 
-                    my professional skills, and making meaningful relationships is just some of experience working in a corporate setting. 
+                    Throughout my time in school, many of the lessons that stood out to me involved practical application. 
+                    Activities such as field trips (outdoor learning, zoo, science centre), French cafe, evaluating political parties (at grade 6! Woah!), 
+                    and what we would spend $10 million dollars on in 24 hours. 
+                    These activities are all related to concepts we learned in class, but applied to the real world, which provided more interest for many, 
+                    knowing what we can directly apply our learning on. 
+                    I want to try to connect every lesson with how the concept may be used in the real world, so students have a deeper connection with the lesson, 
+                    and not feel like they are wasting time learning curriculum. 
                   </p>
                 </div>
               </div>

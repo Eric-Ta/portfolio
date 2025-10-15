@@ -1,6 +1,6 @@
 import { Briefcase, Code, User } from "lucide-react";
 import { ThemeToggle } from "../components/ThemeToggle";
-import { NavbarEducation } from "../components/NavbarEducation";
+import { Navbar440 } from "../components/Navbar440";
 
 import { Education440Section } from "../components/Education440Section";
 export const EDUC440Page = () => {
@@ -12,7 +12,7 @@ export const EDUC440Page = () => {
         
       {" "}
       <main>
-        <NavbarEducation />
+        <Navbar440 />
         <Education440Section />
       
       </main>

@@ -30,11 +30,11 @@ export const HeroSection = () => {
               View My Education 440 Portfolio !!
             </a>
           </div>
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+         {/* <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="edu" className="cosmic-button">
               View My Education Portfolio
             </a>
-          </div>
+          </div> */}
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#timeline" className="cosmic-button">
               View My Experience

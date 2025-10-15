@@ -9,9 +9,10 @@ const navItems = [
   { name: "Education", href: "#schooltimeline" },
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
-  { name: "Education Portfoio", href: "edu" },
+  
   { name: "EDUC 440", href: "educ440" },
 ];
+{/*{ name: "Education Portfoio", href: "edu" },  above EDUC 440*/}
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);

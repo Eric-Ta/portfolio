@@ -4,18 +4,17 @@ import { useEffect, useState } from "react";
 
 const navItems = [
   { name: "Home", href: "home" },
-  { name: "About", href: "home" },
-  { name: "Work Experience", href: "home" },
-  { name: "Education", href: "home" },
-  { name: "Skills", href: "home" },
-  { name: "Contact", href: "home" },
-  
+  { name: "Day 1/2", href: "home" },
+  { name: "Day 3/4", href: "home" },
+  { name: "Day 5/6", href: "home" },
+  { name: "Day 7/8/9", href: "home" },
+
   { name: "EDUC 440", href: "educ440" },
 ];
 
 {/*{ name: "Education Portfoio", href: "edu" },  above EDUC 440*/}
 
-export const NavbarEducation = () => {
+export const Navbar440 = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
