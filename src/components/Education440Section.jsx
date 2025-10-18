@@ -1,5 +1,8 @@
 import { Briefcase, Code, User } from "lucide-react";
-import testphoto from "../images/jacket.jpeg";
+import rowphoto from "../images/row.jpeg";
+import campsphoto from "../images/camps.jpeg";
+import sunrisephoto from "../images/sunrise.jpeg";
+import jacketphoto from "../images/jacket.jpeg";
 
 export const Education440Section = () => {
   return (
@@ -9,56 +12,95 @@ export const Education440Section = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           <span className="text-primary"> EDUC 440 Portfolio</span>
         </h2>
-         <img src={testphoto} alt="react logo" />
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          These help guide my teaching philosophy
-        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
-              Make pages full of expandable cards: with learning philosphy and 1 line summary, + expand to more depth
-            </h3>
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+              Who Am I?
+            </h2>
 
             <p className="text-muted-foreground">
-              Reflecting on my computer science experience and thinking about my future career goals, I decided 
-              to shift away from this path to work in a field where I can provide a positive influence into the 
-              future. Teaching is the answer to this, giving me the opportunity to teach education curriculum, and more
-              importantly, teaching the youth valuable life lessons. 
+              Throughout my experience as a learner in school, student in university, and an instructor for a STEM summer camp, 
+              I know how important a good teacher is for students in the classroom to succeed and to learn effectively. 
+              In order to create an effective classroom environment, a teacher needs to be knowledgeable and care about the material they are teaching, 
+              and also have genuine care and interests for their students and the school culture as a whole. 
+              A teacher should be enthusiastic and excited for the material that they will be teaching, 
+              as this excitement can carry over to the students they are teaching. 
+              A teacher passionate about the material will also lead to innovative and fun ways of teaching, 
+              which can make lessons memorable for their students, fully learning the content instead of sheer memorization. 
+              Being passionate about the material is just one part of being a good teacher, but knowing their students can be even more important. 
+              Understanding the various need each individual has will allow teachers to cater lessons to address these needs to make learning as 
+              equitable as possible for all students in the classroom such as providing additional modes of learning and additional help when needed. 
+              Connecting with students outside the classroom and taking an interest in their interests (such as favourite sports, movies, video games, etc) 
+              will make students respect you more as they don’t just see you as their teacher, but a person who can be similar to them. 
+
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating a positive influence on the future of society, which will be accomplished
-              during my career as a teacher. I decided to get a computer science degree because of my love of problem solving 
-              and technology, both of which I will continue to use in my teaching career (and the rest of my life). 
+              Nowadays, classrooms can be very complicated; with big class sizes, and students who have various individual needs. 
+              Throughout my time in Werklund, I will be exposed to a lot of teaching theory, classroom experience from professors and classmates, 
+              discussions with professors and classmates, and workshops with teaching professionals from across the city, all of which shape my way in thinking, 
+              resulting in creating the best possible classroom experience I can provide to my students and advice to help tackle these complex classrooms. 
+              My practicum experience throughout will give me an amazing opportunities to put this theory to use in an actual classroom 
+              and to be able to get feedback from a mentor teacher going over what well went and what I can improve on in the future. 
+              This practicum experience will put me both in the teacher and learner role. I will be a teacher during lessons and help for my students. 
+              I will be a learner as I receive feedback from my mentor teacher, and as I self-reflect on my own teacher role.
             </p>
 
             <p className="text-muted-foreground">
-              I was born and raised in Calgary and currently residing here! During my free time away from education and work, I love maintaing an active lifestyle! I love to play tennis, 
-              golf, basketball, run, and workout. My favourite sports teams are the Calgary Flames, San Francisco 49ers, and the Los Angeles 
-              Clippers. I am also a massive film connoisseur watching just about everything from old classics to the latest and greatest blockbusters! 
+              About me! I am currently a first year education after-degree student attending the Werklund School of Education at the University Of Calgary. 
+              I am also involved with athletics at the school, being apart of the Dino’s Rowing team. Rowing has been an amazing experience so far; 
+              learning how to row on the water, attending very early morning practices (with beautiful sunrises), and attending my first regatta! 
+              I also currently work at lululemon, a Canadian athleisure clothing brand, providing exceptional and personalized shopping experience to guests 
+              and making meaningful connections with like-minded co-workers. 
+              I have a degree in computer science from the University of Calgary, and was able to intern for companies such as ENMAX. 
+              During my very limited free time, I love watching sports (Calgary Flames, San Francisco 49ers, and Los Angeles Clippers), 
+              playing golf, tennis, watching movies, and going on runs!
+
             </p>
 
             <p className="text-muted-foreground">
-              Don't hesitate to reach out if you're interested in getting to learn more about me, or even if you find a bug on my website!
+              The buttons right below will open a new tab to different components of EDUC 440, including my HEARTcare module, lesson plans, 
+              and some of my random notes I took throughout this 2 week online practicum!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
+              <a href="https://drive.google.com/file/d/11-mzPG6uzCuFZdSp_QcccmQwTLNWrRRn/view?usp=share_link" target="_blank" className="cosmic-button">
                 {" "}
-                Get In Touch
+                HEARTcare Module
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/1X3u10j5GqAfX9TGh_NejVmaDIm_aW4Mi/view?usp=share_link" target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                EDUC 440 Notes
               </a>
+
+              
+            </div>
+
+             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+              <a href="https://drive.google.com/file/d/18LhYF8wiGO4pgzzz09W4G1qUtcwz39p5/view?usp=share_link" target="_blank" className="cosmic-button">
+                {" "}
+                Lesson Plan 1
+              </a>
+
+              <a
+                href="" target="_blank"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                Lesson Plan 2
+              </a>
+
+              
             </div>
           </div>
-
+            
           <div className="grid grid-cols-1 gap-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+                 My Teaching Philosophy
+                </h2>
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
@@ -108,13 +150,16 @@ export const Education440Section = () => {
                     and what we would spend $10 million dollars on in 24 hours. 
                     These activities are all related to concepts we learned in class, but applied to the real world, which provided more interest for many, 
                     knowing what we can directly apply our learning on. 
-                    I want to try to connect every lesson with how the concept may be used in the real world, so students have a deeper connection with the lesson, 
-                    and not feel like they are wasting time learning curriculum. 
+                    I want to try to connect every lesson with how the concept may be used in the real world, so students have a deeper connection with the lesson, and not feel like they are wasting time learning curriculum. 
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        <img src={rowphoto} alt="row" />
+        <img src={campsphoto} alt="camps" />
+        <img src={sunrisephoto} alt="sunrise" />
+        <img src={jacketphoto} alt="jacket" />
         </div>
       </div>
     </section>
