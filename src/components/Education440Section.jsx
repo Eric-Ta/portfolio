@@ -60,8 +60,8 @@ export const Education440Section = () => {
             </p>
 
             <p className="text-muted-foreground">
-              The buttons right below will open a new tab to different components of EDUC 440, including my HEARTcare module, lesson plans, 
-              and some of my random notes I took throughout this 2 week online practicum!
+              The buttons below will open a new tab to different components of EDUC 440, including my HEARTcare module, lesson plans, 
+              and some of the random notes I took throughout this 2 week online practicum!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -87,7 +87,7 @@ export const Education440Section = () => {
               </a>
 
               <a
-                href="" target="_blank"
+                href="https://drive.google.com/file/d/1uc_eWidQC4MkY_28_qGMg00leG6QW6VX/view?usp=share_link" target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Lesson Plan 2
