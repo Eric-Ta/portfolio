@@ -11,8 +11,8 @@ function App() {
       <Toaster />
       <BrowserRouter>
         <Routes>
-          <Route index path="home" element={<Home />} />
-            <Route  path="" element={<Home />} />
+          <Route index path="home" element={<EDUC440Page />} />
+            <Route  path="" element={<EDUC440Page />} />
             <Route path="edu" element={<EducationPage />} />
             <Route path="educ440" element={<EDUC440Page />} />
             <Route path="*" element={<NotFound />} />
