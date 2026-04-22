@@ -10,7 +10,7 @@ const navItems = [
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
   
-  { name: "EDUC 440", href: "educ440" },
+  { name: "EDUC 465", href: "educ440" },
 ];
 {/*{ name: "Education Portfoio", href: "edu" },  above EDUC 440*/}
 

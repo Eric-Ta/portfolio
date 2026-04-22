@@ -10,7 +10,7 @@ export const Education440Section = () => {
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          <span className="text-primary"> EDUC 440 Portfolio</span>
+          <span className="text-primary"> Eric Tan Portfolio</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -59,16 +59,37 @@ export const Education440Section = () => {
 
             </p>
 
+
             <p className="text-muted-foreground">
-              The buttons below will open a new tab to different components of EDUC 440, including my HEARTcare module, lesson plans, 
+              The buttons below will open a new tab to different components of EDUC 465, including lesson plans, 
+              and my HEARTcare Module!
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+            <a href="https://drive.google.com/file/d/1Qfh_QVBex2J7vkbmHXgREl55CwRlnI9-/view" target="_blank" className="cosmic-button">
+                {" "}
+                HEARTcare Module
+              </a> 
+
+              <a
+                href="https://drive.google.com/drive/folders/1HF73WsRFq98S8q6tIvhpj9iwVfefP6fU?usp=sharing" target="_blank"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                EDUC 465 Lesson Plans
+              </a>
+              </div>
+
+            <p className="text-muted-foreground">
+              The buttons below will open a new tab to different components of EDUC 440, including lesson plans, 
               and some of the random notes I took throughout this 2 week online practicum!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+              {/*
               <a href="https://drive.google.com/file/d/11-mzPG6uzCuFZdSp_QcccmQwTLNWrRRn/view?usp=share_link" target="_blank" className="cosmic-button">
                 {" "}
                 HEARTcare Module
-              </a>
+              </a> */}
 
               <a
                 href="https://drive.google.com/file/d/1X3u10j5GqAfX9TGh_NejVmaDIm_aW4Mi/view?usp=share_link" target="_blank"
