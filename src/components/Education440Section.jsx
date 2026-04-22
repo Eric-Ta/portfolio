@@ -79,6 +79,15 @@ export const Education440Section = () => {
               </a>
               </div>
 
+              <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+            <a href="https://drive.google.com/file/d/1prvaQf7ivZmc8dQeLkgM6fsQN2dQyVAe/view" target="_blank" className="cosmic-button">
+                {" "}
+                School Information and Notes
+              </a> 
+
+             
+              </div>
+
             <p className="text-muted-foreground">
               The buttons below will open a new tab to different components of EDUC 440, including lesson plans, 
               and some of the random notes I took throughout this 2 week online practicum!
