@@ -59,6 +59,34 @@ export const Education440Section = () => {
 
             </p>
 
+            <p className="text-muted-foreground">
+              The button below will open a new tab to content from EDUC 560 (4th and final practicum)! 
+              
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+            <a href="https://drive.google.com/drive/folders/1Dgl9wYlKAMH0FZ2zaYxcHg31_APqbstP?usp=drive_link" target="_blank" className="cosmic-button">
+                {" "}
+                EDUC 560 Content
+              </a> 
+
+
+              </div>
+
+            <p className="text-muted-foreground">
+              The button below will open a new tab to content from EDUC 540 (3rd practicum)! 
+              
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+            <a href="https://drive.google.com/drive/folders/1-X76aGGQZrJ1m0XVtH9wkI74N90LNK9O?usp=drive_link" target="_blank" className="cosmic-button">
+                {" "}
+                EDUC 540 Content
+              </a> 
+
+
+              </div>
+
 
             <p className="text-muted-foreground">
               The buttons below will open a new tab to different components of EDUC 465, including lesson plans, 
